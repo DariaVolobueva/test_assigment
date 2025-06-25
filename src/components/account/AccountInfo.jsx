@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../assets/Maritime-logo.jpg";
 
 const AccountInfo = () => {
     return (
@@ -6,7 +7,7 @@ const AccountInfo = () => {
             <div>
                 <img
                     className="rounded-full"
-                    src="/src/assets/Maritime-logo.jpg"
+                    src={img}
                     alt="account logo"
                 />
             </div>
