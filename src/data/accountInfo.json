@@ -1,0 +1,87 @@
+const mockData = {
+  account: {
+    name: "Maritime Logistics Corp",
+    logo: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=80&h=80&fit=crop&crop=center",
+    address: "425 Harbor Boulevard, Suite 300 Seattle, WA 98104",
+    accountNumber: "54383",
+    broker: "Marsh McLennon",
+    underwriter: "Kate Johnson"
+  },
+  alerts: [
+    {
+      id: 1,
+      title: "Marine Survey Required",
+      subtitle: "Scheduled for 06/12/2025",
+      link: "Review Details"
+    },
+    {
+      id: 2,
+      title: "Loss Control Complete",
+      subtitle: "Last inspection: 02/15/2025",
+      link: "View report"
+    },
+    {
+      id: 3,
+      title: "Claims Review required",
+      subtitle: "3 open claims // $245,000 TTL",
+      link: "View claims"
+    }
+  ],
+  metrics: {
+    winnability: {
+      rating: "Very Strong",
+      dots: 4,
+      link: "See all factors"
+    },
+    lossRatio: {
+      current: "25%",
+      target: "42%",
+      link: "View history"
+    },
+    premiumGrowth: {
+      percentage: "12.4%",
+      current: "$123M",
+      target: "$150M",
+      link: "View trend"
+    }
+  },
+  exposure: [
+    { name: "Marine Cargo", percentage: 71.4 },
+    { name: "General Liability", percentage: 20 },
+    { name: "Workers Comp", percentage: 8.6 }
+  ],
+  policies: [
+    {
+      id: 1,
+      type: "Marine Cargo",
+      number: "MC-2024-001",
+      premium: "$45,000",
+      status: "Active",
+      expiry: "12/31/2025"
+    },
+    {
+      id: 2,
+      type: "General Liability",
+      number: "GL-2024-002",
+      premium: "$12,500",
+      status: "Renewal Due",
+      expiry: "03/15/2025"
+    }
+  ],
+  communications: [
+    {
+      id: 1,
+      date: "2025-06-20",
+      type: "Email",
+      subject: "Policy Renewal Discussion",
+      from: "Kate Johnson"
+    },
+    {
+      id: 2,
+      date: "2025-06-18",
+      type: "Call",
+      subject: "Claims Update Meeting",
+      from: "Maritime Logistics"
+    }
+  ]
+};

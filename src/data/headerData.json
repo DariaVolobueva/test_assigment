@@ -1,0 +1,7 @@
+{
+    "titleTemplate": "Hi {{name}}, welcome! You have {{tasks}} open tasks.",
+    "searchPlaceholder": "Search",
+    "avatarInitials": "AR",
+    "name": "Arthur",
+    "tasks": 12
+}

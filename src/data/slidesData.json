@@ -1,0 +1,14 @@
+[
+    { "id": 1, "title": "Dashboard", "icon": "home" },
+    { "id": 2, "title": "Accounts", "icon": "database" },
+    { "id": 3, "title": "Brokers", "icon": "group" },
+    { "id": 4, "title": "Submissions", "icon": "file" },
+    { "id": 5, "title": "Organizations", "icon": "building" },
+    { "id": 6, "title": "Goals & Rules", "icon": "target" },
+    { "id": 7, "title": "Admin", "icon": "key" },
+    { "id": 8, "title": "Admin", "icon": "key" },
+    { "id": 9, "title": "Admin", "icon": "key" },
+    { "id": 10, "title": "Admin", "icon": "key" },
+    { "id": 11, "title": "Admin", "icon": "key" },
+    { "id": 12, "title": "Admin", "icon": "key" }
+]

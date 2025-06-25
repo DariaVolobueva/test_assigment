@@ -1,0 +1,57 @@
+{
+    "filters": [
+        { "title": "Assigned to me", "count": 12 },
+        { "title": "Pending reviews", "count": 8 },
+        { "title": "Referrals", "count": 3 }
+    ],
+    "rows": [
+        {
+            "originatorName": "Sam Masters",
+            "client": "NAMEX Tech Solutions",
+            "line": "Cyber Liability",
+            "type": "Underwriter Referral",
+            "status": "New",
+            "created": "04/16/2025"
+        },
+        {
+            "originatorName": "Annalise Willis",
+            "client": "Maritime Logistics Corp",
+            "line": "Marine Cargo",
+            "type": "Underwriter Referral",
+            "status": "New",
+            "created": "04/20/2025"
+        },
+        {
+            "originatorName": "Patrick Devenport",
+            "client": "GreenField Energy Ltd",
+            "line": "Environmental",
+            "type": "Loss  Control Request",
+            "status": "New",
+            "created": "04/16/2025"
+        },
+        {
+            "originatorName": "Ana Killian",
+            "client": "NorthStar Finantial Group",
+            "line": "D&O Liability",
+            "type": "Underwriter Referral",
+            "status": "Pending Review",
+            "created": "04/22/2025"
+        },
+        {
+            "originatorName": "Ana Killian",
+            "client": "Alliance Healthear System",
+            "line": "Medical Malpractice",
+            "type": "Email",
+            "status": "Completed",
+            "created": "04/28/2025"
+        },
+        {
+            "originatorName": "Me",
+            "client": "QuantumTech Industries",
+            "line": "Product Liability",
+            "type": "Email",
+            "status": "Completed",
+            "created": "04/20/2025"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-background: #121622;
+    --color-dark-grey: #1e2233;
+    --color-custom-grey: #313b54;
+    --color-custom-blue: #1e40af;
+    --color-custom-blue-tr: rgb(30, 64, 175, 0.3);
+    --color-custom-black: #0c0f17;
+    --color-custom-bright-blue: #3b82f6;
+    --color-custom-desaturated-blue: #252a3d;
+    --color-custom-dark-desaturated-blue: #232838;
+    --color-custom-ashy-blue: #94a3b8;
+    --color-custom-ceramic-green: #3bb979;
+    --color-custom-minion-yellow: #fdd261;
+    --color-custom-lanister-red: #cc0101;
+    --color-custom-black-river-falls: #313853;
+    --color-custom-aeronautic: #293245;
+    --color-custom-edgy-red: #b93b3b;
+    --color-custom-speed-well: #596275;
+    --color-custom-blue-dart: #5a89d7;
+    --color-custom-dark-side-of-the-moon: #07090d;
+    --color-custom-dark-grayish-blue: #8a8c98;
+
+    --font-poppins: "Poppins", sans-serif;
+
+    --breakpoint-custom-xl1-2: 85rem;
+    --breakpoint-custom-xl2-3: 117rem;
+
+    --text-xxs: 0.5rem;
+}
+
+body {
+    background-color: #121622;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #4b5563; /* Tailwind gray-600 */
+    border-radius: 4px;
+    width: 3px;
+}
